@@ -118,7 +118,7 @@ export function SideBar(props: { className?: string }) {
               onClick={chatStore.deleteSession}
             />
           </div>
-          <div className={styles["sidebar-action"]}>
+          <div className={styles["sidebar-action"]} style={{display:none}}>
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>

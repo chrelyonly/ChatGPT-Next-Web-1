@@ -263,10 +263,12 @@
     align-items: center;
 
     .sidebar-actions {
+      display: none;
       flex-direction: column;
       align-items: center;
 
       .sidebar-action {
+        display: none;
         margin-right: 0;
         margin-bottom: 15px;
       }

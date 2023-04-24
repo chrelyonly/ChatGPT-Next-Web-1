@@ -8,7 +8,7 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "🍓",
-  description: "Your personal ChatGPT Chat Bot.",
+  description: "草莓.",
   appleWebApp: {
     title: "🍓",
     statusBarStyle: "default",
